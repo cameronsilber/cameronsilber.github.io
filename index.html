@@ -1,12 +1,146 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>HTML GITHUB HOSTING TEST</title>
-</head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+<!--Google RSS Feed reader API-->
+
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script src="JavaScript/Assets/gfdynamicfeedcontrol.js"
+type="text/javascript"></script>
+
+<style type="text/css">
+@import url("css/assets/gfdynamicfeedcontrol.css");
+
+
+/* CSS INFO FOR FEEDS */
+#feedControlBBC {
+margin-top : auto;
+margin-left: auto;
+margin-right: auto;
+width : 390px;
+font-size: 12px;
+color: black;
+}
+
+#feedControlScienceDailyTopTech {
+margin-top : auto;
+margin-left: auto;
+margin-right: auto;
+width : 390px;
+font-size: 12px;
+color: black;
+}
+
+#feedControlScienceDaily {
+margin-top : auto;
+margin-left: auto;
+margin-right: auto;
+width : 390px;
+font-size: 12px;
+color: black;
+}
+</style>
+
+
+<script type="text/javascript">
+function load() {
+var feed ="http://feeds.bbci.co.uk/news/world/rss.xml";
+new GFdynamicFeedControl(feed, "feedControlBBC");
+}
+google.load("feeds", "1");
+google.setOnLoadCallback(load);
+</script>
+
+<script type="text/javascript">
+function load() {
+var feed ="http://feeds.sciencedaily.com/sciencedaily/top_news/top_technology.xml";
+new GFdynamicFeedControl(feed, "feedControlScienceDailyTopTech");
+}
+google.load("feeds", "1");
+google.setOnLoadCallback(load);
+</script>
+
+<script type="text/javascript">
+function load() {
+var feed ="http://feeds.sciencedaily.com/sciencedaily/top_news/top_science.xml";
+new GFdynamicFeedControl(feed, "feedControlScienceDaily");
+}
+google.load("feeds", "1");
+google.setOnLoadCallback(load);
+</script>
+
+
+<!--end Google RSS Feed reader API-->
+
+
+    <title>Silber, Cameron J.</title>
+    
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    
+    <link rel="stylesheet" href="css/style.css"> 
+
+
+  </head>
+
 <body>
-<header> Test Of GitHub webhosting </heade>
-<h1> GitHub Web hosting test page </h1>
+  <header> Test Site By Cameron Silber </header>
+
+  <div class="nav">
+    <div class="container">
+      <ul>
+        <li><a href="projectOne/bouncing-squares/index.html">Project-1</a></li>
+        <li><a href="projectTwo/placeHolder.html">Project-2<a/></li>
+        <li><a href="currentProject/gravity-simulation/index.html">Current-project</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="jumbotron">
+    <div class="container">
+      <h1> Top Spot for All Walks of Science! </h1>
+
+      <p> Find coding projects, news articles, and everything cool in the science community! Everything from new microships and electrical engineering projects to the deep space travels of astronomy! check back for new stuff and new advances! </p>
+
+    </div>
+  </div>
+
+  <div class="supportContent">
+    <div class="container">
+      <h3> This site and its owner </h3>
+      <p> This site is coded completely from the ground up! Created by me, Cameron, I hope to turn this website into a center for all my coding projects, intersting discoveries in the field of science, and all the other cool things of the world of discovery!</p>
+    </div>
+  </div>
+
+  <table style="width:100%">
+  <tr>
+    <td>
+    	<h5>BBC WORLD NEWS:</h5>
+    		 <div id="body">
+			<div id="feedControlBBC">Loading...</div>
+			</div>
+    </td>
+   
+    <td>
+    	<h5>ScienceDaily TOP TECHNOLOGY NEWS:</h5>
+    		<div id="body">
+			<div id="feedControlScienceDailyTopTech">Loading...</div>
+			</div>
+    </td> 
+   
+    <td>
+    	<h5>ScienceDaily TOP NEWS:</h5>
+    		<div id="body">
+			<div id="feedControlScienceDaily">Loading...</div>
+			</div>
+    </td>
+  </tr>
+</table>
 
 
-</body>
+
+  <footer> By Cameron Silber......Feburary 3, 2016 </footer>  
+  
+  </body>
 </html>

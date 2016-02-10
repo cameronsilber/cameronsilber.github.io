@@ -1,0 +1,79 @@
+html {
+  background-image: url("assets/matrixBackground.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  color: white;
+}
+
+.nav {
+  color: red;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+
+.nav a {
+  color: white;
+  font-size: 35;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav ul {
+  word-spacing: 30px;
+  text-align: center;
+}
+
+.jumbotron {
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  padding: 4px;
+  border: 7px inset green;
+  text-align: center;
+  background-color: black;
+}
+
+.jumbotron h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.supportContent {
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  padding: 4px;
+  border: 10px groove red;
+  text-align: center;
+  margin: 15px;
+  background-color: black;
+}
+
+table, th, td {
+  border: 3px inset blue;
+  background-color: white;
+}
+
+
+
+}
+
+th, td {
+    padding: 5px;
+}
+
+h5 {
+  color: black;
+}
+
+
+
+
