@@ -1,8 +1,8 @@
 html {
-  background-image: url("assets/matrixBackground.jpg");
-  background-repeat: no-repeat;
+  /* background-image: url("assets/matrixBackground.jpg");
+  background-repeat: repeat;
   background-position: right top;
-  color: white;
+  color: white; */
 }
 
 .nav {
@@ -57,23 +57,13 @@ html {
   background-color: black;
 }
 
-table, th, td {
-  border: 3px inset blue;
-  background-color: white;
-}
-
-
-
-}
-
-th, td {
-    padding: 5px;
-}
-
 h5 {
-  color: black;
+  color: white;
 }
 
+#feedControlScienceDaily, #feedControlScienceDailyTopTech, #feedControlBBC {
+  background-color: red;
+}
 
 
 
