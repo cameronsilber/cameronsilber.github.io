@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro);
+
+
+body {
+	font-family: 'Maven Pro', sans-serif;
+	background-color: #e7e7e7;
+	color: #777;
+	padding: 30px 0;
+}
+
+h1,
+h2 {
+	margin: 0;
+	color: #444;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1em;
+	margin-bottom: 30px;
+}
+
+p {
+	line-height: 1.6;
+	margin-bottom: 20px;
+}
+
+div.p1 {
+	text-align: center;
+}
+
+/*--------------NAV BAR CSS--------------------------*/
+
+ul {
+	list-style-type: none;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	overflow: hidden;
+	background-color: #cccccc;
+	position: center;
+	text-align: center;
+}
+
+li {
+	display: inline;
+}
+
+li a,
+.dropbtn {
+	display: inline-block;
+	color: #4d4d4d;
+	padding: 14px 16px;
+	text-decoration: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+	background-color: #f1f1f1;
+}
+
+li.dropdown {
+	display: inline-block;
+	text-align: center;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
